@@ -107,7 +107,7 @@ class TextWrapper
         return $this->executeRun($command);
     }
 
-    protected function executeRun(Array $command)
+    public function executeRun(Array $command)
     {
         // Output will be written to a temporary stream, so that it can be
         // collected after running the command.
